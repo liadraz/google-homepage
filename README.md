@@ -8,13 +8,13 @@ The goal is to start thinking about how elements get placed on the page and roug
 
 Make sure you know how to do these before starting:
 - Two ways to move a div around on the page
-- Stick a div onto the bottom or top of the page
-- Identify the background color of an existing webpage
-- Grab the URL for an image from an existing webpage
-- Center an element horizontally
-- Identify three ways you can include your CSS styles in a page
-- Understand how to use classes and ids to target CSS at - specific elements on the page
-- Build a very basic form (even if it doesn’t “go” anywhere)
+V    Stick a div onto the bottom or top of the page
+v    Identify the background color of an existing webpage
+v    Grab the URL for an image from an existing webpage
+v    Center an element horizontally
+v    Identify three ways you can include your CSS styles in a page
+V    Understand how to use classes and ids to target CSS at specific elements on the page
+-    Build a very basic form (even if it doesn’t “go” anywhere)
 
 ----
 
