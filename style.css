@@ -6,23 +6,170 @@
 
 body {
     background: white;
+    font-family: arial, sans-serif;
 }
 
-.main-center {
-    width: 560px;
-    margin: 0 auto;
+.top-nav {
+    position: absolute;
+    right: 0;
+    margin: 16px 0;
+    padding: 0 15px;
+    font-size: 13px;
 }
 
-img {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    padding-right: 15px;
+    margin: auto;
+}
+
+#google-apps-button {
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+}
+
+#google-apps-button:hover {
+    opacity: 1;
+}
+
+#profile-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+#google-logo {
     height: 92px;
     width: 272px;
 }
 
 .image-center {
     text-align: center;
+    margin-bottom: 38px;
+    padding-top: 198px;
+}
+
+.main-center {
+    min-width: 400px;
+    margin: 0 auto;
 }
 
 form {
     text-align: center;
+}
 
+.border-text-line {
+    width: 585px;
+    height: 44px;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.border-text-line:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.text-line {
+    width: 520px;
+    height: 34px;
+    margin-top: 5px;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.buttons-align {
+    padding-top: 18px;
+}
+
+.buttons {
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+}
+
+.buttons:hover {
+    color: black;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+}
+
+p a {
+    color: #1a0dab;
+    padding: 0 3px;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f2f2f2;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+footer a {
+    color: #5f6368;
+}
+
+.box-border {
+    border: 1px solid #e4e4e4;
+}
+
+.location-bar {
+    display: block;
+    margin-left: 30px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+
+.left-footer {
+    float: left;
+    left: 0;
+    margin-left: 30px;
+}
+
+.right-footer {
+    float: right;
+    right: 0;
+    margin-right: 30px;
 }
